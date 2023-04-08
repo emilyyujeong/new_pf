@@ -523,8 +523,8 @@
 @media (max-width: 768px) {
     .circle {
         position: absolute;
-        top:-38%;
-        right: 1%;
+        top: -50%;
+        right: 0%;
         width: 150px;
         height: 150px;
         background: url(../images/res_circle03.png) no-repeat center center/contain;
@@ -689,7 +689,7 @@
         margin: 0 30px;
         border: none;
         border-radius: none;
-        padding: 110px 0 180px 0;
+        padding: 10px 0 180px 0;
         opacity: 0;
         gap: 10px;
 
@@ -700,14 +700,12 @@
     .section .content_bg {
         margin: 0 auto;
         width: 200px;
-        height: 100px;
         background-size: contain;
-        min-height: 200px;
+        min-height: 150px;
         
     }
 
     .section .description .txt_row {
-
         padding: 10px 0;
     }
     
@@ -769,7 +767,7 @@
         width: auto;
 
         padding: 5px 0 0 0;
-        margin-top: -40px;
+        margin-top: -100px;
 
     }
 
