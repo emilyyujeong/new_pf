@@ -1,4 +1,8 @@
+
+
 $(function () {
+
+
 
     var fullpageOption = {
         anchors: [
@@ -10,6 +14,8 @@ $(function () {
             'portfolio05',
             'profile'
         ],
+        // Don't want to scroll to the bottom of a section
+        bigSectionsDestination: 'top',
 
         //navigation: true,
         onLeave: function (origin, destination, direction) {
@@ -67,4 +73,4 @@ $(function () {
     });
 
 
-})
+});

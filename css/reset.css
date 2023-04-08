@@ -19,6 +19,7 @@ a {
 body {
     line-height: 1;
     font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+word-break: keep-all;
 }
 
 img {
