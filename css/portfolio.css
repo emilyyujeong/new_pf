@@ -699,6 +699,7 @@
     .section .content_bg {
         margin: 0 auto;
         width: 250px;
+        min-height: 150px;
         background-size: contain;
         
     }
@@ -706,7 +707,7 @@
 
     .section01 .content_bg {
         background-image: url(../images/mo_fgs_mockup.png);
-
+  
 
     }
 
