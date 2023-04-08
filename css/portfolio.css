@@ -522,11 +522,11 @@
 @media (max-width: 768px) {
     .circle {
         position: absolute;
-        top: -30%;
+        top:-38%;
         right: 1%;
-        width: 200px;
-        height: 200px;
-        background: url(../images/res_circle03.png) no-repeat;
+        width: 150px;
+        height: 150px;
+        background: url(../images/res_circle03.png) no-repeat center center/contain;
         animation: turn 9s linear infinite;
         opacity: 1;
         z-index: 1;
@@ -683,7 +683,7 @@
     .section .inner {
         justify-content: space-between;
         width: auto;
-        height: auto;
+        height: 100%;
         margin: 0 30px;
         border: none;
         border-radius: none;
@@ -697,14 +697,19 @@
 
     .section .content_bg {
         margin: 0 auto;
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 100px;
         background-size: contain;
         min-height: 200px;
         
     }
 
 
+    .section .description .txt_row {
+
+        padding: 10px 0;
+    }
+    
     .section .description .txt_row dt {
         font-size: 12px;
 
