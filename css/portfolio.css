@@ -523,7 +523,6 @@
 @media (max-width: 768px) {
     .circle {
         position: absolute;
-        top: -55%;
         right: 0%;
         width: 150px;
         height: 150px;
@@ -699,7 +698,7 @@
 
     .section .content_bg {
         margin: 0 auto;
-        width: 200px;
+        width: 250px;
         background-size: contain;
         
     }
@@ -746,7 +745,7 @@
         width: auto;
 
         padding: 5px 0 0 0;
-        margin-top: -50px;
+        margin-top: 10px;
 
     }
 
