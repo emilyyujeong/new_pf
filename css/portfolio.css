@@ -523,7 +523,7 @@
 @media (max-width: 768px) {
     .circle {
         position: absolute;
-        top: -50%;
+        top: -45%;
         right: 0%;
         width: 150px;
         height: 150px;
@@ -683,13 +683,13 @@
 
 
     .section .inner {
-        justify-content: space-between;
+      
         width: auto;
         height: 100%;
         margin: 0 30px;
         border: none;
         border-radius: none;
-        padding: 10px 0 180px 0;
+        padding: 0px 0 180px 0;
         opacity: 0;
         gap: 10px;
 
@@ -701,7 +701,6 @@
         margin: 0 auto;
         width: 200px;
         background-size: contain;
-        min-height: 150px;
         
     }
 
