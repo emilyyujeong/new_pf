@@ -523,7 +523,7 @@
 @media (max-width: 768px) {
     .circle {
         position: absolute;
-        top: -25%;
+        top: -55%;
         right: 0%;
         width: 150px;
         height: 150px;
@@ -704,26 +704,6 @@
         
     }
 
-    .section .description .txt_row {
-        padding: 10px 0;
-    }
-    
-    .section .description .txt_row dt {
-        font-size: 12px;
-
-    }
-
-    .section .description .txt_row dd {
-        font-size: 13px;
-        font-weight: 500;
-
-    }
-
-    .section .description .txt_row .desc {
-        padding-left: 70px;
-        font-size: 12px;
-        font-weight: 200;
-    }
 
     .section01 .content_bg {
         background-image: url(../images/mo_fgs_mockup.png);
@@ -766,7 +746,7 @@
         width: auto;
 
         padding: 5px 0 0 0;
-        margin-top: -100px;
+        margin-top: -50px;
 
     }
 
@@ -783,6 +763,28 @@
         font-weight: 300;
     }
 
+
+    
+    .section .description .txt_row {
+        padding: 10px 0;
+    }
+    
+    .section .description .txt_row dt {
+        font-size: 12px;
+
+    }
+
+    .section .description .txt_row dd {
+        font-size: 13px;
+        font-weight: 500;
+
+    }
+
+    .section .description .txt_row .desc {
+        padding-left: 70px;
+        font-size: 12px;
+        font-weight: 200;
+    }
     .section .description .btn {
         display: flex;
         justify-content: center;
